@@ -7,7 +7,6 @@
 
 Firebase-ORM is a tiny wrapper on top of firebase-admin that makes life easier when dealing with Firestore collections. Firebase-ORM tries to ease the development of apps that rely on Firestore at the database layer by abstracting the access layer providing a familiar repository pattern. It basically helps us not worry about Firestore details and focus on what matters: adding cool new features!
 
-You can read more about the motivations and features of Firebase-ORM [on its introductory post](https://medium.com/p/ba7734644684). Also, the [API documentation](https://deyvi-dev.github.io/firebase-orm) is available.
 
 > :warning: This is a maintained fork of the original Firebase-ORM project. New features and bug fixes will be added here.
 
