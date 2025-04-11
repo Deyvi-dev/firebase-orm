@@ -1,0 +1,21 @@
+{
+  "name": "Firebase-ORM: ORM for firestore",
+  "type": "library",
+  "platforms": ["Web", "Node"],
+  "content": "README.md",
+  "related": ["deyvi-dev/firebase-orm"],
+  "tabs": [
+    {
+      "title": "Documentation",
+      "href": "https://firebase-orm.js.org"
+    },
+    {
+      "title": "Github",
+      "href": "https://github.com/deyvi-dev/firebase-orm"
+    },
+    {
+      "title": "NPM",
+      "href": "https://www.npmjs.com/package/firebase-orm"
+    }
+  ]
+}

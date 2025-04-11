@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["Decorators"],
+  "exclude": ["**/*.spec.ts"],
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "name": "firebase-orm",
+  "description": "ORM for Firestore",
+  "version": "0.0.0-development",
+  "author": "Willy Ovalle <willyovalle16@gmail.com>",
+  "homepage": "https://firebase-orm.js.org",
+  "license": "ISC",
+  "main": "lib/src/index.js",
+  "types": "lib/src/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/Deyvi-dev/firebase-orm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deyvi-dev/firebase-orm.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "orm"
+  ],
+  "scripts": {
+    "build": "tsc && yarn build:strict",
+    "build:typedoc": "typedoc --options docgen/typedoc.json",
+    "build:docsify": "yarn ts-node docgen/build.ts",
+    "build:doc": "yarn rimraf docs && yarn build:typedoc && yarn build:docsify && cp CNAME docs/CNAME",
+    "build:strict": "tsc -p src",
+    "serve:doc": "yarn docsify serve docgen",
+    "deploy:doc": "gh-pages-deploy",
+    "build:watch": "tsc -w --incremental",
+    "build:strict:watch": "yarn run build:strict -- -w",
+    "lint": "eslint '*/**/*.{js,ts}'",
+    "lint:md": "remark README.md -o README.md",
+    "release": "semantic-release",
+    "test": "jest src --coverage=true",
+    "test:integration": "jest -c test/jest.integration.js",
+    "test:watch": "jest --watch src",
+    "t": "yarn test",
+    "tw": "yarn test:watch",
+    "bw": "yarn build:watch"
+  },
+  "dependencies": {
+    "class-transformer": "0.4.0",
+    "pluralize": "^8.0.0",
+    "ts-object-path": "^0.1.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/travis-cli": "^12.1.4",
+    "@google-cloud/firestore": "^4.12.2",
+    "@types/jest": "^26.0.23",
+    "@types/pluralize": "^0.0.29",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "class-validator": "^0.13.1",
+    "docsify-cli": "^4.4.3",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "firebase-admin": "^9.9.0",
+    "gh-pages-deploy": "^0.5.1",
+    "husky": "^6.0.0",
+    "jest": "^27.0.3",
+    "mock-cloud-firestore": "^0.12.0",
+    "prettier": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.0",
+    "semantic-release": "^17.4.3",
+    "ts-jest": "^27.0.1",
+    "ts-node": "^10.0.0",
+    "typedoc": "^0.20.36",
+    "typedoc-plugin-markdown": "^3.8.2",
+    "typescript": "^4.3.2"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "files": [
+    "/lib",
+    "!**/*.map",
+    "!**/*.spec.*",
+    "!**/examples/**",
+    "!**/test/**"
+  ],
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ],
+    "plugins": [
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator"
+    ]
+  },
+  "gh-pages-deploy": {
+    "staticpath": "docs",
+    "prep": [
+      "build:doc"
+    ],
+    "commit": "chore(docs): updating documentation",
+    "noprompt": true
+  }
+}

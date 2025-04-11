@@ -1,0 +1,177 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "deyvi-dev",
+      "name": "Willy Ovalle",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7854116?v=4",
+      "profile": "http://twitter.com/deyvi-dev",
+      "contributions": [
+        "code",
+        "doc",
+        "example",
+        "ideas",
+        "review",
+        "test"
+      ]
+    },
+    {
+      "login": "mamodom",
+      "name": "Maximo Dominguez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5097424?v=4",
+      "profile": "https://github.com/mamodom",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "jonesnc",
+      "name": "Nathan Jones",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1293145?v=4",
+      "profile": "https://github.com/jonesnc",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "skalashnyk",
+      "name": "Sergii Kalashnyk",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18640514?v=4",
+      "profile": "https://github.com/skalashnyk",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "skneko",
+      "name": "SaltyKawaiiNeko",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13376606?v=4",
+      "profile": "http://skneko.moe/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "z-hirschtritt",
+      "name": "z-hirschtritt",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/35265735?v=4",
+      "profile": "https://github.com/z-hirschtritt",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "joemckie",
+      "name": "Joe McKie",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4980618?v=4",
+      "profile": "http://joemck.ie/",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "smddzcy",
+      "name": "Samed Düzçay",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13895224?v=4",
+      "profile": "https://www.smddzcy.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "stefdelec",
+      "name": "stefdelec",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12082478?v=4",
+      "profile": "https://github.com/stefdelec",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "LukaszKuciel",
+      "name": "Łukasz Kuciel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35846271?v=4",
+      "profile": "http://www.innvia.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Fame513",
+      "name": "Yaroslav Nekryach",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2944505?v=4",
+      "profile": "https://github.com/Fame513",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "tomorroN",
+      "name": "Dmytro Nikitiuk",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40293865?v=4",
+      "profile": "https://www.linkedin.com/in/dmytro-nikitiuk/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JingWangTW",
+      "name": "JingWangTW",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20182367?v=4",
+      "profile": "https://github.com/JingWangTW",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rinkstiekema",
+      "name": "Rink Stiekema",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5337711?v=4",
+      "profile": "https://github.com/rinkstiekema",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "danieleisenhardt",
+      "name": "Daniel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2325519?v=4",
+      "profile": "https://github.com/danieleisenhardt",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MarZab",
+      "name": "Marko Zabreznik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1311249?v=4",
+      "profile": "https://zabreznik.net",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jomendez",
+      "name": "Jose Mendez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8228498?v=4",
+      "profile": "http://jomendez.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "firebase-orm",
+  "projectOwner": "deyvi-dev",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
